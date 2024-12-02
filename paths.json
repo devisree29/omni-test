@@ -1,7 +1,7 @@
 {
   "mappings": [
-    "/content/aem-block-collection/:/",
-    "/content/aem-block-collection/metadata:/metadata.json",
-    "/content/aem-block-collection/configuration:/.helix/config.json"
+    "/content/omni-test/:/",
+    "/content/omni-test/metadata:/metadata.json",
+    "/content/omni-test/configuration:/.helix/config.json"
   ]
 }
