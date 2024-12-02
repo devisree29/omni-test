@@ -6,7 +6,164 @@
         "component": "boolean",
         "name": "breadcrumbs",
         "label": "Show Breadcrumbs"
-      }
+      },
+      {
+      "component": "aem-tag",
+      "label": "AEM Tag Picker",
+      "name": "cq:tags",
+      "valueType": "string"
+    },
+    {
+      "component": "aem-content",
+      "name": "aem-content",
+      "value": "",
+      "label": "AEM Content Picker",
+      "valueType": "string"
+    },
+    {
+      "component": "boolean",
+      "label": "Boolean",
+      "name": "boolean",
+      "valueType": "boolean"
+    },
+    {
+      "component": "checkbox-group",
+      "label": "Checkbox Group",
+      "name": "checkbox",
+      "valueType": "string[]",
+      "options": [
+        { "name": "Option 1", "value": "option1" },
+        { "name": "Option 2", "value": "option2" }
+      ]
+    },
+    {
+          "component": "text-input",
+          "label": "Simple Text 2",
+          "name": "textinput",
+          "valueType": "string"
+    },
+    {
+        "component": "aem-content-fragment",
+        "name": "cfpicker",
+        "label": "Content Fragment Picker",
+        "valueType": "string",
+        "variationName": "contentFragmentVariation"
+    },
+    {
+      "component": "date-time",
+      "label": "Date & Time",
+      "name": "date",
+      "valueType": "date"
+    },
+    {
+        "component": "aem-experience-fragment",
+        "name": "efpicker",
+        "label": "Experience Fragment Picker",
+        "valueType": "string",
+        "variationName": "experienceFragmentVariation"
+      },
+    {
+      "component": "multiselect",
+      "name": "multiselect",
+      "label": "Multi Select",
+      "valueType": "string",
+      "options": [
+        { "name": "Option 1", "value": "option1" },
+        { "name": "Option 2", "value": "option2" }
+      ]
+    },
+       {
+      "component": "multiselect",
+      "name": "multiselect-grouped",
+      "label": "Multiselect field",
+      "valueType": "string",
+      "required": true,
+      "maxSize": 2,
+      "options": [
+        {
+          "name": "Theme",
+          "children": [
+            { "name": "Light", "value": "light" },
+            { "name": "Dark",  "value": "dark" }
+          ]
+        },
+        {
+          "name": "Type",
+          "children": [
+            { "name": "Alpha", "value": "alpha" },
+            { "name": "Beta", "value": "beta" },
+            { "name": "Gamma", "value": "gamma" }
+          ]
+        }
+      ]
+    },
+    {
+      "component": "number",
+      "name": "number",
+      "label": "Number",
+      "valueType": "number",
+      "value": 0
+    },
+    {
+      "component": "radio-group",
+      "label": "Radio Group",
+      "name": "radio",
+      "valueType": "string",
+      "options": [
+        { "name": "Option 1", "value": "option1" },
+        { "name": "Option 2", "value": "option2" }
+      ]
+    },
+    {
+      "component": "reference",
+      "label": "Reference",
+      "name": "reference",
+      "valueType": "string"
+    },
+    {
+      "component": "richtext",
+      "name": "rte",
+      "label": "Rich Text",
+      "valueType": "string"
+    },
+    {
+      "component": "select",
+      "label": "Select",
+      "name": "select",
+      "valueType": "string",
+      "options": [
+        { "name": "Option 1", "value": "option1" },
+        { "name": "Option 2", "value": "option2" }
+      ]
+    },
+        {
+      "component": "tab",
+      "label": "Tab 1",
+      "name": "tab1"
+    },
+    {
+      "component": "text-input",
+      "label": "Text 1",
+      "name": "textinput1tab1n",
+      "valueType": "string"
+    },
+    {
+      "component": "tab",
+      "label": "Tab 2",
+      "name": "tab2"
+    },
+    {
+      "component": "text-input",
+      "label": "Text 2",
+      "name": "textinput2tab2",
+      "valueType": "string"
+    },
+    {
+      "component": "text",
+      "name": "normaltext",
+      "label": "Simple Text",
+      "valueType": "string"
+    }
     ]
   },
   {
